@@ -1,0 +1,137 @@
+{
+  "@id": "dtmi:digitaltwins:Basic:Warehouse;1",
+  "@type": "Interface",
+  "@context": ["dtmi:dtdl:context;2"],
+  "displayName": "Ecommerce Warehouse",
+  "description": "Ecommerce Warehouse data",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "warehouseid",
+      "displayName": "warehouseid",
+      "description": "The unique id of the Warehouse shelfs and products",
+      "writable": true,
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "TimeInterval",
+      "description": "The time interval of this data",
+      "displayName": "TimeInterval",
+      "writable": true,
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "ShelfId",
+      "displayName": "ShelfId",
+      "writable": true,
+      "schema": "integer"
+    },
+    {
+      "@type": "Property",
+      "name": "SlotQuantity",
+      "displayName": "SlotQuantity",
+      "writable": true,
+      "schema": "integer"
+    },
+    {
+      "@type": "Property",
+      "name": "ShelfProduct",
+      "displayName": "ShelfProduct",
+      "writable": true,
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "ProductId",
+      "displayName": "ProductId",
+      "writable": true,
+      "schema": "integer"
+    },
+    {
+      "@type": "Property",
+      "name": "ProductName",
+      "displayName": "ProductName",
+      "writable": true,
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "ProductCategory",
+      "displayName": "ProductCategory",
+      "writable": true,
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "ProductManufacturer",
+      "displayName": "ProductManufacturer",
+      "writable": true,
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "ProductOfCustomer",
+      "displayName": "ProductOfCustomer",
+      "writable": true,
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "ProductImageURL",
+      "displayName": "ProductImageURL",
+      "writable": true,
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "BatteryUsageTimeOfRobot",
+      "displayName": "BatteryUsageTimeOfRobot",
+      "writable": true,
+      "schema": "integer"
+    },
+    {
+      "@type": "Property",
+      "name": "RemainingBatteryOfRobot",
+      "displayName": "RemainingBatteryOfRobot",
+      "writable": true,
+      "schema": "integer"
+    },
+    {
+      "@type": "Property",
+      "name": "BatteryTravelDistanceOfRobot",
+      "displayName": "BatteryTravelDistanceOfRobot",
+      "writable": true,
+      "schema": "integer"
+    },
+    {
+      "@type": "Property",
+      "name": "ProductQuantity",
+      "displayName": "ProductQuantity",
+      "writable": true,
+      "schema": "integer"
+    },
+    {
+      "@type": "Property",
+      "name": "RobotCarryingProductName",
+      "displayName": "RobotCarryingProductName",
+      "writable": true,
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "RobotCarryingProductQuantity",
+      "displayName": "RobotCarryingProductQuantity",
+      "writable": true,
+      "schema": "integer"
+    },
+    {
+      "@type": "Property",
+      "name": "OrderFullillment",
+      "displayName": "OrderFullillment",
+      "writable": true,
+      "schema": "integer"
+    }
+  ]
+}
